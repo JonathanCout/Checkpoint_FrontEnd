@@ -29,14 +29,14 @@ main {
 #video {
     display: block; 
     margin: 0 auto;
-    height: 50vh;
+    height: 55vh;
     width: 50vw;
     position: relative;
-    top: 30px;
+    top: 10px;
 }
 #text {
     position: relative;
-    top: 70px;
+    top: 25px;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 22px;
 }
@@ -57,10 +57,11 @@ footer{
 }
 .icones {
     position: relative;
-   left: 46vw;
-   top: 2vh;
-   height: 40px;
-   padding-left: 10px;
-
-   
+    left: 46vw;
+    top: 2vh;
+    height: 40px;
+    margin-right: 10px;
+    border: 2px rgb(56, 205, 250) solid;
+    border-radius: 50%;
+    padding: 5px;  
 }
